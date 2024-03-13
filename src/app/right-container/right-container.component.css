@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content:space-between ;
     align-items: center;
-    font-size: medium;
+    font-size: small;
     font-weight: bold;
 }
 
@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 
-.tuday-active{
+.today-active{
     color: #1a1a1a;
 }
 
@@ -55,19 +55,19 @@
 
 /*CSS for on clicl underline*/
 .underline{
-    width: 50px;
-    height: 2px;
+    width: 40px;
+    height: 1px;
     background-color: #1a1a1a;
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
 }
 
-.underline-todya{
-    transform: translate3d(200%, 0, 0);
+.underline-today{
+    transform: translate3d(100%, 0, 0);
     transition: 100ms;
 }
 
 .underline-week{
-    transform: translate3d(100%, 0, 0);
+    transform: translate3d(220%, 0, 0);
     transition: 100ms;
 }
 
