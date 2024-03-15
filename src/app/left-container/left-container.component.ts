@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faMagnifyingGlass, faLocation } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faLocation, faCloud, faCloudRain } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-left-container',
@@ -15,4 +15,8 @@ export class LeftContainerComponent {
   //var for ;eft-nav-bar seach icon
   faMagnifyingGlass:any = faMagnifyingGlass;
   faLocation:any = faLocation;
+
+  //var for timeperature summary
+  faCloud:any = faCloud;
+  faCloudRain:any = faCloudRain;
 }

@@ -5,6 +5,8 @@
     flex-direction: column;
 }
 
+/* CSS for left container nav bar */
+
 .left-container-nav-bar{
     flex: 2;
     display: flex;
@@ -47,6 +49,114 @@
     color: black;
 }
 
+
+/*===========================================================*/
+/*CSS for left container data */
+
 .left-container-data-box{
     flex: 12;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+}
+
+/*Temp data: image and value and day-time*/
+.left-container-temp-data{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container-temp-img{
+    flex: 2;
+}
+
+.left-container-temp-img img{
+    width: 160px;
+    height: 160px;
+}
+
+.left-container-temp-value{
+    flex: 1;
+    font-size: 62px;
+    font-weight: normal;
+}
+
+.left-container-temp-value sup{
+    position: absolute;
+    margin-top: 6px;
+    font-size: 36px;
+}
+
+.left-container-day-time{
+    flex: 1;
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+}
+
+.left-container-day-time span{
+    color: #dddddd;
+}
+
+
+.dividing-line{
+    height: 1px;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*Temp details: summary phrase, rane value, location image, location details*/
+.left-container-other-details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container-temp-summary{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.left-container-temp-summary-phrase-img{
+    margin-right: 8px;
+}
+.left-container-rain-stats{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.left-container-rain-stats-img{
+    margin-right: 10px;
+}
+
+.left-container-location-details{
+    flex: 4;
+    text-align: center;
+}
+
+.left-container-location-img{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.left-container-location-img img{
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.left-container-location-name{
+    margin-top: -80px;
+    font-size: medium;
+    font-weight: bold;
+    color: #f6f6f6;
 }
