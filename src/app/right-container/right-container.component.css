@@ -134,7 +134,59 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .right-container-data-box{
     flex: 12;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.right-container-week-cards{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 75px;
+    height: 95px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+.card-day{
+    margin: 5px;
+    margin-top: 7px;
+}
+
+.card-temp-img img{
+    width: 40px;
+    height: 40px;
+}
+
+.card-temp-value{
+    margin: 5px;
+}
+
+.right-container-today-cards{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container-todays-highlight{
+    flex: 3;
 }
 
